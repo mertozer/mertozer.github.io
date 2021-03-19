@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+
+	.image {
+	  opacity: 1;
+	  display: block;
+	  width: 100%;
+	  height: auto;
+	  transition: .5s ease;
+	  backface-visibility: hidden;
+	}
+
+	
+
+	.container2:hover .image {
+	  opacity: 0.9;
+	}
+
+	.container2:hover .middle {
+	  opacity: 1;
+	}
+
+	
+	</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109135479-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109135479-1');
+</script>
+<meta charset="utf-8">
+<title>Mert Ozer @ASU</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menucollapse.js"></script>
+<script type="text/javascript" src="js/arrow78.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+            <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span><a href="https://www.asu.edu/"><img border="0" width="200" src="images/asu_logo.svg.png"/></a></span>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Home<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a onclick="javascript:reset_menus();$('#tab-1-content').show();" href="#intro">Introduction</a></li>
+                        <li><a target="_blank" href="code_data_pdf/Resume.pdf">Resume (PDF)</a></li>
+                    </ul>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-6-content').show();" href="#publications">Publications</a>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-6-content').show();" href="#talks">Talks</a>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-6-content').show();" href="#service">Service</a>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-6-content').show();" href="#colleagues">Collaborators</a>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+
+        <!-- search box submenu -->
+        <div class="collapse" id="bs-example-navbar-collapse-2">
+            <gcse:search></gcse:search>
+        </div>
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<section>
+    <!-- Place this tag where you want the search results to render -->
+    <gcse:searchresults-only></gcse:searchresults-only>
+</section>
+
+<!-- Home Section -->
+<section id="home" style="margin-top:40px">
+<div class="container">
+        <div align="left" class="col-md-3">
+            <a target="_blank" class="container2">
+                <img id="mobile-img" src="images/mert_small.jpg" border="0" alt="" class="image"></img></a>
+        </div>
+        <div align="left" class="col-md-4">
+            <h3>Mert Ozer <a href="https://orcid.org/0000-0003-2687-6783" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>
+                <h5>Arizona State University - Tempe, USA</h5></h3>
+
+            <h4>Ph.D. in <br>
+            Computer Science<br>
+            Arizona State University<br>
+            85287 Tempe, AZ, USA<br>
+            Email:
+            <script language="JavaScript">
+                <!--
+                document.write("&nbsp;");
+                spiderjam('mozer','asu.edu');
+                -->
+            </script><br/>
+            </h4>
+        </div>
+
+        <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+        <i class="expandshow" style="display:none;" id="tab-1">
+            <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+        </i>
+        <i class="collapseshow" style="display:none;" id="tab-1">
+            <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+        </i>
+
+    </div>
+</section>
+
+<!-- Home Section -->
+<section id="intro">
+    <div class="container lead">
+        <div style="text-align: left; margin-top:10px" class="col-md-12">
+            <!--<h2>Welcome!</h2>-->
+
+            <i class="noshow" style="display:none;" id="tab-1">
+            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-1-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </i>
+
+            <div class="allshow" style="display:none;" id="tab-1-content">
+            <hr class="star-primary">
+
+            <p class="lead"> I am a senior data scientist at <a target="_blank" href="https://emailage.com/">Emailage</a>, a <a target="_blank" href = "https://risk.lexisnexis.com/">Lexis Nexis Risk Solutions</a> company. I have received my doctoral degree in <a target="_blank" href="https://cidse.engineering.asu.edu/">Computer Science</a> from the <a target="_blank" href="http://www.asu.edu/">Arizona State University</a> in December 2019.  I hold B.Sc. (2012) and M.Sc. (2014) degrees in Computer Science from the <a href="http://www.ceng.metu.edu.tr/" target="_blank">Middle East Technical University</a>. I have been a Visiting Research Assistant at the <a href="https://minds.isi.edu/" target="_blank"> Machine INtelligence and Data Science (MINDS)</a> research group in University of Southern California's <a href="https://isi.edu/" target="_blank">Information Sciences Institute</a> (2018) and an undergraduate summer intern at the McKeown Group in the Department of Computer Science of Stanford University (2010).
+            </p>
+            <p>
+            My research is at the intersection of <b>Machine Learning</b> and <b>Graph Mining</b>, particularly their applications to <i>Financial Fraud Management; Online Political Networks; Social Media Mining; Spatio-Temporal Pattern Mining.</i>
+            </p>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Research Section -->
+<section id="publications">
+    <div class="container lead">
+        <div style="text-align: left; margin-top:10px" class="col-md-12">
+
+            <i class="noshow" style="display:none;" id="tab-3">
+                <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-3-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </i>
+            <div class="allshow" style="display:none;" id="tab-3-content">
+            <hr class="star-primary">
+
+            <h2>Publications & Talks</h2>
+            <h4>
+            <!--<span class="btn btn-primary">
+                <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color=white>h-index</font></a>: x
+            </span>&nbsp;-->
+            <span class="btn btn-primary">
+               <img src="images/scholar.png" width="25" height="25"><a target="_blank" href="https://scholar.google.com/citations?user=89aOxcYAAAAJ&hl=en&view_op=list_works&sortby=pubdate"><font color=white>&nbsp&nbspGoogle Scholar</font></a>
+            </span>&nbsp;
+            <span class="btn btn-primary">
+               <img src="images/dblp.jpeg" width="25" height="25"><a target="_blank" href="https://dblp.org/pers/hd/o/Ozer:Mert"><font color=white>&nbsp&nbspDBLP</font></a>
+            </span>&nbsp;
+            </h4>
+			<h3> Online Political Networks & Social Media Mining </h3>
+            <ul>
+				<li><span class="label label-success">Expert Systems with Applications</span> <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0957417420301627">"Discovering patterns of online popularity from time series" </a> <b>Mert Ozer</b>, Anna Sapienza, Andrés Abeliuk, Emilio Ferrara, Expert Systems with Applications, Volume 151, 2020. </li>
+				<a href="https://github.com/mertozer/mts-clustering" class="label label-warning">Code&raquo;</a> <a href="https://www.public.asu.edu/~mozer/dipm-SC/" class="label label-warning"> Supplementary Material </a>
+				<p></p>
+				<li><span class="label label-success">Under Review</span> <a target="_blank" href="http://artisinternational.dimediasites.com/wp-content/uploads/2019/08/Measuring_the_Polarization_Effects_of_Bot_Accounts_in_the_U_S__Gun_Control_Debate_on_Social_Media.pdf">"Measuring the Polarization Effects of Bot Accounts in the U.S. Gun Control Debate on Social Media" </a> <b>Mert Ozer</b>, Mehmet Yigit Yildirim, Hasan Davulcu, 2020</li>
+				<a href="https://github.com/botpolarization/" class="label label-warning">Code & Sample Dataset&raquo;</a>
+				<p></p>
+				<li><span class="label label-success">New Review of Hypermedia and Multimedia</span> <a target="_blank" href="https://www.tandfonline.com/eprint/NZraPjhwJMZIqVyzbMEC/full">"Implicit negative link detection on online political networks via matrix tri-factorizations" </a> <b>Mert Ozer</b>, Mehmet Yigit Yildirim, Hasan Davulcu, New Review of Hypermedia and Multimedia, 24:2, 63-87</li>
+				<a href="code_data_pdf/NRHM.tar.gz" class="label label-warning">Code & Sample Dataset&raquo;</a>
+				<p></p>
+                <li><span class="label label-success">ACM Hypertext '18</span> <a target="_blank" href="http://www.public.asu.edu/~mozer/code_data_pdf/HT2018.pdf">"Sentiment-driven Community Profiling and Detection on Social Media."</a>, Amin Salehi, <b>Mert Ozer</b>, Hasan Davulcu, Proceedings of the The 29th ACM Conference on Hypertext and Social Media (HT'18)</li>
+                <a href="https://github.com/amin-salehi/GSNMF" class="label label-warning">Code & Sample Dataset&raquo;</a>
+                <p></p>
+                <li><span class="label label-success">SBP-BRIMS '18</span> <a target="_blank" href="code_data_pdf/SBP2018.pdf">"Framing Shifts of the Ukraine Conflict in pro-Russian News Media"</a>, Sultan Alzahrani, Nyunsu Kim, <b>Mert Ozer</b>, Scott W. Ruston, Jason Schlachter, Steve R. Corman, Proceedings of the 2018 International Conference on Social Computing, Behavioral-Cultural Modeling, & Prediction and Behavior Representation in Modeling and Simulation  (SBP-BRIMS'18).</li>
+                <p></p>
+                <li><span class="label label-success">ACM Hypertext '17</span> <a target="_blank" href = "code_data_pdf/HT2017.pdf">"Negative Link Prediction and Its Applications in Online Political Networks"</a>, <b>Mert Ozer</b>, Mehmet Yigit Yildirim, Hasan Davulcu, Proceedings of the The 28th ACM Conference on Hypertext and Social Media (HT'17).</li>
+                <a href="code_data_pdf/HT2017Code.tar.gz" class="label label-warning">Code & Sample Dataset&raquo;</a> <a href="code_data_pdf/HT2017Presentation.pptx" class="label label-warning">Presentation&raquo;</a>
+                <p></p>
+                <li><span class="label label-success">IEEE/ACM ASONAM '16</span> <a target="_blank" href="https://arxiv.org/pdf/1608.01771v1.pdf">"Community Detection in Political Twitter Networks using Nonnegative Matrix Factorization Methods"</a>, <b>Mert Ozer</b>, Nyunsu Kim, Hasan Davulcu, Proceedings of the 2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM’16)</li>
+                <a href="code_data_pdf/ASONAM2016Code.tar.gz" class="label label-warning">Code & Sample Dataset&raquo;</a> <a href="code_data_pdf/ASONAM2016Presentation.pptx" class="label label-warning">Presentation&raquo;</a>
+                <p></p>
+                <li><span class="label label-success">IEEE/ACM ASONAM '15</span> <a target="_blank" href="http://www.public.asu.edu/~hdavulcu/FAB2015.pdf">"A Dynamic Modularity Based Community Detection Algorithm for Large-scale Networks"</a>, Riza Aktunc, <b>Mert Ozer</b>, Ismail Hakki Toroslu, Hasan Davulcu, Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM’15)</li>
+                <a href="https://github.com/mertozer/dSLM" class="label label-warning">Code & Sample Dataset&raquo;</a>
+              
+            </ul>
+			<h3> Financial Fraud Management </h3>
+			<ul>
+				<li><span class="label label-success">Under Review</span> <a target="_blank" href="https://arxiv.org/pdf/1905.09509.pdf">"Leveraging Uncertainty in Deep Learning for Selective Classification" </a> Mehmet Yigit Yildirim, <b>Mert Ozer</b>, Hasan Davulcu, 2020.</li>
+				<a href="https://github.com/botpolarization/" class="label label-warning">Code & Sample Dataset&raquo;</a>
+				<p></p>
+				<li><span class="label label-success">AIAI 2018</span> <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-319-92007-8_28">"Cost-Sensitive Decision Making for Online Fraud Management" </a> Mehmet Yigit Yildirim, <b>Mert Ozer</b>, Hasan Davulcu, Artificial Intelligence Applications and Innovations (AIAI 2018), pp. 323-336.</li>
+				<p></p>
+			</ul>
+            <h3> Spatio-Temporal Sequential Pattern Mining </h3>
+            <ul>
+				<li><span class="label label-success">The Computer</span><a href = "http://comjnl.oxfordjournals.org/content/early/2015/09/11/comjnl.bxv075.abstract">"Predicting the Location and Time of Mobile Phone Users by Using Sequential Pattern Mining Techniques"</a>, <b>Mert Ozer</b>, Ilkcan Keles, Ismail Hakki Toroslu, Pinar Karagoz, Hasan Davulcu, The Computer Journal (2015)</li>
+				<li><span class="label label-success">MobiGIS '14</span><a href = "http://www.ceng.metu.edu.tr/~e1560739/mobigis2014.pdf"> :Predicting the Next Location Change and Time of Change for Mobile Phone Users"</a>, <b>Mert Ozer</b>, Ilkcan Keles, Ismail Hakki Toroslu, Pinar Karagoz, In the Proceedings of Third ACM SIGSPATIAL International Workshop on Mobile Geographic Information Systems (MobiGIS '14).</li>
+				<li><span class="label label-success">NFMCP '14</span><a href = "http://www.ceng.metu.edu.tr/~e1560739/dawak_paper.pdf">"Location Prediction of Mobile Phone Users using Apriori-based Sequence Mining with Multiple Support Thresholds."</a>, Ilkcan Keles, <b>Mert Ozer</b>, Ismail Hakki Toroslu, Pinar Karagoz, In the Proceedings of ECML PKDD 2014 Workshop on New Frontiers in Mining Complex Patterns.</li>
+				<li><span class="label label-success">MobiGIS '13</span><a href = "http://dl.acm.org/citation.cfm?doid=2534190.2534196">"Predicting the change of location of mobile phone users" </a>, <b>Mert Ozer</b>, Ilkcan Keles, Ismail Hakki Toroslu, Pinar Karagoz,  In Proceedings of the Second ACM SIGSPATIAL International Workshop on Mobile Geographic Information Systems (MobiGIS '13) </a></li>
+			</ul>
+			<h3 id = "talks"> Other Talks </h3>
+			<ul>
+			<li><span class="label label-success"> NetSci'19</span> "Measuring the Impact of Bot Accounts on Political Network Polarization" NetSci 2019.</a> </li>
+			<a href="http://www.public.asu.edu/~mozer/code_data_pdf/NetSci19.pdf" class="label label-warning">Abstract&raquo;</a> <a href="http://www.public.asu.edu/~mozer/code_data_pdf/MeasuringBotPolariazation.pdf" class="label label-warning">Presentation&raquo;</a>
+			<p></p>
+			<li><span class="label label-success"> PolNet'18</span> "An Investigation of Two Online Political Misinformation Campaigns from Canada and Iran" The 2018 APSA Political Networks Section 11th Annual Political Networks Conference and Workshop.</a> </li>
+			<a href="http://www.public.asu.edu/~mozer/PolNet2018.pdf" class="label label-warning">Presentation&raquo;</a>
+			<p></p>
+			<li><span class="label label-success"> SIDEWAYS'17</span><a href = "http://www.public.asu.edu/~mozer/SIDEWAYS2017.pdf">"Three Facets of Online Political Networks: Communities, Antagonisms, and Controversial Issues", </a> 3rd International Workshop on Social Media World Sensors (2017)</li>
+			<a href = "http://www.public.asu.edu/~mozer/SIDEWAYS2017Presentation.pptx" class="label label-warning">Presentation&raquo;</a>
+			<p></p>
+			<li> <span class="label label-success"> DataPower'17 </span> "Deliberative democracy or agonism? An exploration of the role of Twitter in political discourse" Tarnjit Johal, <b>Mert Ozer</b>, <a href = "https://carleton.ca/datapower/wp-content/uploads/DataPower2017_Program_FINAL-2-1.pdf">Data Power 2017</a>.</li>
+			<a href = "http://www.public.asu.edu/~mozer/DeliberativeDemocracyTwitterProj.pptx" class="label label-warning">Presentation&raquo;</a>
+			</ul>
+            </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Service Section -->
+<section id="service">
+
+    <div class="container lead">
+        <div style="text-align: left; margin-top:10px" class="col-md-12">
+
+            <i class="noshow" style="display:none;" id="tab-6">
+                <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-6-content').toggle();">Service  <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </i>
+            <div class="allshow" style="display:none;" id="tab-6-content">
+
+           <hr class="star-primary">
+           <h2>External Reviewing Service</h2>
+
+           <p>
+           <ul>
+               <li>
+                   <b><a href="https://link.springer.com/journal/10618" target="_blank">Data Mining and Knowledge Discovery</a></b>
+               <li>
+                   <b><a href="https://journals.plos.org/plosone/" target="_blank">PLoS One</a></b>
+               </li>
+               <li>
+                   <b><a href="https://www.computer.org/web/tetc" target="_blank">IEEE Transactions on Emerging Topics in Computing</a></b>
+                   
+               </li>
+            </ul>
+            </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Home Section -->
+<section id="colleagues">
+    <div class="container lead">
+        <div style="text-align: left; margin-top:10px" class="col-md-12">
+
+            <i class="noshow" style="display:none;" id="tab-8">
+                <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-8-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </i>
+
+            <div class="allshow" style="display:none;" id="tab-8-content">
+
+            <hr class="star-primary">
+            <h2>Colleagues I am lucky to have collaborated with</h2>
+            <ul>
+                <li><span class="label label-danger"><font color="white">During Ph.D.</font></a></span> </li>
+                <p></p>&nbsp;&nbsp;&nbsp;<img src="images/asu.png" width="50" height="50"> <a href = "http://www.public.asu.edu/~asalehi1/">Amin Salehi</a>, <a href = "https://www.linkedin.com/in/yigityil">Mehmet Yigit Yildirim</a>
+                <p></p>&nbsp;&nbsp;&nbsp;<img src="images/usc.png" width="50" height="50"> <a href="https://users.dcc.uchile.cl/~aabeliuk/">Andres Abeliuk</a>,  <a href="http://www.annasapienza.it/">Anna Sapienza</a>, <a href="http://www.emilio.ferrara.name/">Emilio Ferrara</a>, <a href="http://gmuric.com/">Goran Muric</a>
+                <li><span class="label label-danger"><font color="white">During M.Sc.</font></a></span> </li>
+                <p></p>&nbsp;&nbsp;&nbsp;<img src="images/metu.png" width="50" height="50"> <a href="http://user.ceng.metu.edu.tr/~karagoz/">Pinar Karagoz</a>, <a href="http://user.ceng.metu.edu.tr/~toroslu/">Ismail Hakki Toroslu</a>
+                <p></p>&nbsp;&nbsp;&nbsp;<img src="images/aalborg.png" width="70" height="50"> <a href = "http://people.cs.aau.dk/~ilkcan/">Ilkcan Keles</a>
+            </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<hr class="star-primary">
+<footer>
+    <small>
+    <center>
+        © 2015 | D. Zeinalipour. Credits: AR template
+    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
+    <a href="https://github.com/dmsl/academic-responsive-template"_blank">
+        https://github.com/dmsl/academic-responsive-template
+    </a> ]
+    </div>
+    </center>
+    </small>
+</footer>
+
+</body>
+
+</html>
